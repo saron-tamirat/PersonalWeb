@@ -29,9 +29,43 @@ h1 {
     margin-top: -7px;
     padding-bottom: -5px;
     max-width: 100%;
-    
+    padding-left: 280px;
 
 }
-ul li a{
+
+.navbar .navbar-nav .nav-link:hover{
+    text-decoration: none;
+    color:white;
+}
+.navbar .navbar-collapse .navbar-nav > .active > a{
     color: white;
 }
+.navbar-light .navbar-nav .nav-link{
+    color:#bbb;
+}
+.content{
+    margin-top: 0px;
+}
+.content .title >h2{
+    color: #333333;
+    font-size: 36px;
+    font-weight: normal;
+    margin: 12px 0 30px 0;
+    padding-bottom: 30px;
+    background-image: url(http://stevenkinnear.com/wp-content/themes/trulyminimal/images/left-dot.png);
+    background-position: bottom right;
+   background-repeat: repeat-x;
+}
+
+.content .title >h2{
+    color: #333333;
+    font-size: 36px;
+    font-weight: normal;
+   
+}
+.content .title >a>img{
+    display:inline;
+    float: right;
+    cursor: pointer;
+}
+
