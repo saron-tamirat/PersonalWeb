@@ -51,6 +51,7 @@ body{
     text-decoration: none;
     color:white;
 }
+
 .navbar .navbar-collapse .navbar-nav > .active > a{
     color: white;
 }
@@ -145,6 +146,13 @@ h3{
     
     
    }
+#page{
+     
+    background-image: url(http://stevenkinnear.com/wp-content/themes/trulyminimal/images/left-dot.png);
+    background-position: bottom right;
+   background-repeat: repeat-x;
+   padding-bottom: 30px;
+}
 #footer{
     
     width: 955px;
