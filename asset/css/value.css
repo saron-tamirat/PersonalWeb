@@ -10,6 +10,10 @@ body{
     
 
 }
+.container-fluid .row .col1 a{
+    text-decoration: none;
+   
+}
 .container-fluid{
     
     background-color: #fff;
@@ -58,16 +62,10 @@ body{
 .navbar-light .navbar-nav .nav-link{
     color:#bbb;
 }
-
 .content {
     padding: 20px 20px 32px 10px;
     margin-top: 0;
     border-bottom: 1px solid #bbb;
-    
-    
-
-    
-    
 }
 .content h2.title1{
     font-family: 'Bodoni Moda', serif;
@@ -75,29 +73,43 @@ body{
     font-size: 36px;
     font-weight: normal;
     margin-top: 0;
-    padding: 0 0 30px 0;
-    background-image: url(http://stevenkinnear.com/wp-content/themes/trulyminimal/images/left-dot.png);
-    background-position: bottom right;
-   background-repeat: repeat-x;
+
+    
 }
 
-.content h2.title2{
-    color: #574d4d;
-    font-size: 24px;
-    font-family: 'Arial', 'Helvetica', sans-serif;
-    display: block;
-    font-size: 1.5em;
-    font-weight: bold;
+.container-fluid .col1 .post-title{
+    background-image: url(http://stevenkinnear.com/wp-content/themes/trulyminimal/images/left-dot.png);
+    background-position: bottom right;
+    background-repeat: repeat-x;
+    color: rgb(140, 140, 140);
    
+    font-family: 'Arial', 'Helvetica', sans-serif;
+    margin: 15px 0px 0px;
+    padding: 0px 0px 30px;
+}
+.container-fluid .col1 .post-title a{
+    color: #2d2654;
+    text-decoration: none
+}
+.container-fluid .col1 .post-title a:hover{
+    
+    color: #cf0c0c;
+}
+span{
+    text-transform: uppercase;
+    color: #262626;
+}
+#comment .form-group{
+    color: #a5a3a3;
+    font-size: 12px;
 }
 
 
 p{
-   
+   line-height: 28px;
    font-size: 14px;
    color: rgb(87, 77, 77);
-   margin: 0;
-   
+   margin: 20px 0 20px 0;
    
 
 }
@@ -108,9 +120,6 @@ h2{
     font-weight: bold;
     color:#574d4d;
 }
-#paragraph{
-    padding-bottom: 90px;
-}
 .content .row .col2{
    
     background-image: url(http://stevenkinnear.com/wp-content/themes/trulyminimal/images/top-dot.png);
@@ -120,11 +129,16 @@ h2{
   
    
 }
+#comment h3{
+    margin: 0 0 0 0;
+    padding: 109px 0 45px 0;
+    color: #272525;
+    font-size: 20px;
+    text-transform: none;
+    
+}
 h3{
-   
-    
-    
-    font-weight: normal;
+   font-weight: normal;
     font-family: 'PT Serif', serif;
     text-transform: uppercase;
     color: #8c8c8c;
@@ -145,18 +159,6 @@ h3{
     
     
    }
-.form-group{
-     padding-bottom: 50px;
-   }
-.form-btn a:hover{
-       color: #cf0c0c;
-}
-.form-btn a{
-    color:black;
-    text-decoration: none;
-    font-size: 18px;
-}
-
 #page{
      
     background-image: url(http://stevenkinnear.com/wp-content/themes/trulyminimal/images/left-dot.png);
@@ -164,7 +166,20 @@ h3{
    background-repeat: repeat-x;
    padding-bottom: 30px;
 }
+strong{
+    font-weight: bold;
+    font-style: italic;
+}
+.form-btn a:hover{
+    color:#cf0c0c;
+    text-decoration: none;
 
+}
+.form-btn a {
+    color: black;
+    font-size: 16px;
+
+}
 #footer{
     
     width: 955px;
